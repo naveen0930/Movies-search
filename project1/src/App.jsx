@@ -2,7 +2,7 @@ import MovieDetails from './components/MovieDetails';
 import Movies from './components/Movies';
 import Navbar from './components/Navbar';
 import { useState } from 'react';
-import { Routes, Route } from 'react-router-dom'; // ✅ Fixed import
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   const [totalResults, setTotalResults] = useState(0);
